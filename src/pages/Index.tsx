@@ -46,7 +46,8 @@ const Index = () => {
             asChild
           >
             <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
-              Заявка
+              <span className="hidden sm:inline">Отправить заявку</span>
+              <span className="sm:hidden">Заявка</span>
             </a>
           </Button>
         </div>
