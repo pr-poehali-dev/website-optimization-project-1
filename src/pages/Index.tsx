@@ -77,9 +77,9 @@ const Index = () => {
             </div>
             <div className="relative animate-fade-in">
               <img
-                src="https://cdn.poehali.dev/projects/66857a8d-e1f4-4db9-98da-ef5c7f6aa2dd/files/5b658621-79d2-42f4-98d8-ce4959b1a110.jpg"
+                src="https://cdn.poehali.dev/files/c510f463-1f12-4555-baf8-7b66e2da412d.png"
                 alt="Курьер Яндекс.Еда"
-                className="w-full rounded-2xl shadow-2xl object-cover h-[500px]"
+                className="w-full rounded-2xl shadow-2xl"
               />
             </div>
           </div>
@@ -351,19 +351,18 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 relative overflow-hidden">
+      <section className="py-20 relative overflow-hidden bg-gray-900">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/files/f8987522-439f-4f1e-86d2-e2cb6d6241d6.png)',
-            filter: 'brightness(0.5)'
+            backgroundImage: 'url(https://cdn.poehali.dev/files/f8987522-439f-4f1e-86d2-e2cb6d6241d6.png)'
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Присоединяйтесь к самой большой команде курьеров
           </h2>
-          <p className="text-2xl mb-8 drop-shadow-lg">
+          <p className="text-2xl mb-8">
             И зарабатывай до 850 рублей в час.
           </p>
           <Button 
