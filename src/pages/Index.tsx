@@ -353,21 +353,22 @@ const Index = () => {
 
       <section className="py-12 md:py-20 relative overflow-hidden bg-gray-900">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-40"
+          className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/files/f8987522-439f-4f1e-86d2-e2cb6d6241d6.png)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/66857a8d-e1f4-4db9-98da-ef5c7f6aa2dd/files/77876231-c011-4131-96a9-5099a3a50dfb.jpg)'
           }}
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/60 via-gray-900/70 to-gray-900/60" />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 drop-shadow-lg">
             Присоединяйтесь к самой большой команде курьеров
           </h2>
-          <p className="text-lg md:text-2xl mb-6 md:mb-8">
+          <p className="text-lg md:text-2xl mb-6 md:mb-8 drop-shadow-md">
             И зарабатывай до 850 рублей в час.
           </p>
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-black font-semibold text-base md:text-lg px-6 py-5 md:px-8 md:py-6 w-full sm:w-auto"
+            className="bg-primary hover:bg-primary/90 text-black font-semibold text-base md:text-lg px-6 py-5 md:px-8 md:py-6 w-full sm:w-auto shadow-2xl"
             asChild
           >
             <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
