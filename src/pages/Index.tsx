@@ -41,8 +41,13 @@ const Index = () => {
               </a>
             </nav>
           </div>
-          <Button className="bg-primary hover:bg-primary/90 text-black font-semibold">
-            Отправить заявку
+          <Button 
+            className="bg-primary hover:bg-primary/90 text-black font-semibold"
+            asChild
+          >
+            <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+              Отправить заявку
+            </a>
           </Button>
         </div>
       </header>
@@ -63,8 +68,11 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-black font-semibold text-lg px-8 py-6"
+                asChild
               >
-                Стать курьером
+                <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+                  Стать курьером
+                </a>
               </Button>
             </div>
             <div className="relative animate-fade-in">
@@ -154,8 +162,11 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-black font-semibold text-lg px-8 py-6"
+              asChild
             >
-              Стать курьером
+              <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+                Стать курьером
+              </a>
             </Button>
           </div>
         </div>
@@ -209,8 +220,11 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-black font-semibold text-lg px-8 py-6"
+              asChild
             >
-              Отправить заявку
+              <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+                Отправить заявку
+              </a>
             </Button>
           </div>
         </div>
@@ -276,6 +290,33 @@ const Index = () => {
                 Обычно определённая сумма на проезд входит в фиксированную сумму дохода.
               </AccordionContent>
             </AccordionItem>
+
+            <AccordionItem value="item-7" className="bg-white rounded-lg border px-6">
+              <AccordionTrigger className="text-xl font-semibold hover:no-underline">
+                Выдают ли форму?
+              </AccordionTrigger>
+              <AccordionContent className="text-lg text-muted-foreground">
+                Курьерская служба предоставит вам жёлтую одежду с логотипом сервиса после начала сотрудничества. Не забывайте надевать её на заказы.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-8" className="bg-white rounded-lg border px-6">
+              <AccordionTrigger className="text-xl font-semibold hover:no-underline">
+                Можно ли получить оплату ежедневно?
+              </AccordionTrigger>
+              <AccordionContent className="text-lg text-muted-foreground">
+                Да, можно. Условия сотрудничества для прямых курьеров-партнёров в статусе самозанятых предусматривают ежедневные выплаты.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-9" className="bg-white rounded-lg border px-6">
+              <AccordionTrigger className="text-xl font-semibold hover:no-underline">
+                Есть ли страхование во время заказов?
+              </AccordionTrigger>
+              <AccordionContent className="text-lg text-muted-foreground">
+                Да — страховое возмещение можно получить в случае серьёзных травм, которые случились с вами во время работы.
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </section>
@@ -292,68 +333,90 @@ const Index = () => {
           </div>
           
           <Card className="p-8">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-semibold mb-2">
-                  Имя
-                </label>
-                <Input
-                  id="name"
-                  placeholder="Введите ваше имя"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  required
-                  className="text-base"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="phone" className="block text-sm font-semibold mb-2">
-                  Телефон
-                </label>
-                <Input
-                  id="phone"
-                  type="tel"
-                  placeholder="+7 (___) ___-__-__"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  required
-                  className="text-base"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-semibold mb-2">
-                  Сообщение (необязательно)
-                </label>
-                <Textarea
-                  id="message"
-                  placeholder="Расскажите о себе..."
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  rows={4}
-                  className="text-base"
-                />
-              </div>
-              
+            <div className="space-y-6">
+              <p className="text-center text-lg text-muted-foreground">
+                Нажмите кнопку ниже, чтобы перейти на страницу регистрации Яндекс.Еда
+              </p>
               <Button 
-                type="submit" 
                 size="lg" 
                 className="w-full bg-black hover:bg-black/90 text-white font-semibold text-lg py-6"
+                asChild
               >
-                Отправить заявку
+                <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+                  Отправить заявку
+                </a>
               </Button>
-            </form>
+            </div>
           </Card>
         </div>
       </section>
 
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4 text-center">
-          <div className="text-2xl font-bold mb-4">Яндекс.Еда</div>
-          <p className="text-gray-400">
-            © 2024 Все права защищены
+      <section className="py-20 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/files/f8987522-439f-4f1e-86d2-e2cb6d6241d6.png)',
+            filter: 'brightness(0.7)'
+          }}
+        />
+        <div className="relative z-10 container mx-auto px-4 text-center text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Присоединяйтесь к самой большой команде курьеров
+          </h2>
+          <p className="text-2xl mb-8">
+            И зарабатывай до 850 рублей в час.
           </p>
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-black font-semibold text-lg px-8 py-6"
+            asChild
+          >
+            <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+              Стать курьером
+            </a>
+          </Button>
+        </div>
+      </section>
+
+      <section id="contacts" className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12">
+            Контакты
+          </h2>
+          <div className="max-w-md mx-auto">
+            <Card className="p-8">
+              <Icon name="Phone" className="mx-auto mb-4 text-primary" size={48} />
+              <h3 className="text-2xl font-bold mb-4">Свяжитесь с нами</h3>
+              <a 
+                href="tel:+79250334432" 
+                className="text-3xl font-semibold text-primary hover:underline"
+              >
+                +7 (925) 033-44-32
+              </a>
+              <p className="text-muted-foreground mt-4">
+                Звоните с 9:00 до 21:00
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <div className="text-2xl font-bold mb-6">Яндекс.Еда</div>
+            <p className="text-gray-300 mb-2">
+              © 2025, Официальный партнер Яндекс Еда
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto space-y-4 text-sm text-gray-400">
+            <p>
+              18+ лет. Сотрудничество с организациями, оказывающими услуги по доставке заказов, оформленных с помощью сервиса Яндекс Еда.
+            </p>
+            <p>
+              *Указаны средние показатели. Условия дохода и результаты индивидуальны и могут отличаться от указанных в зависимости от города, количества выполненных заказов и прочих условий. Работа в качестве курьера-партнёра сервиса Яндекс Еда или как самозанятый. Чтобы узнать подробную информацию отправьте заявку.
+            </p>
+          </div>
         </div>
       </footer>
     </div>
