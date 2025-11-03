@@ -28,7 +28,7 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <div className="text-2xl font-bold">Яндекс.Еда</div>
+            <div className="text-2xl font-bold">Работа курьером</div>
             <nav className="hidden md:flex gap-6">
               <a href="#benefits" className="hover:text-primary transition-colors">
                 Преимущества
@@ -77,9 +77,9 @@ const Index = () => {
             </div>
             <div className="relative animate-fade-in">
               <img
-                src="https://cdn.poehali.dev/files/ac048a4f-0dd0-46c3-ba8e-9852b1b7b33c.png"
+                src="https://cdn.poehali.dev/projects/66857a8d-e1f4-4db9-98da-ef5c7f6aa2dd/files/5b658621-79d2-42f4-98d8-ce4959b1a110.jpg"
                 alt="Курьер Яндекс.Еда"
-                className="w-full rounded-2xl shadow-2xl"
+                className="w-full rounded-2xl shadow-2xl object-cover h-[500px]"
               />
             </div>
           </div>
@@ -356,14 +356,14 @@ const Index = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: 'url(https://cdn.poehali.dev/files/f8987522-439f-4f1e-86d2-e2cb6d6241d6.png)',
-            filter: 'brightness(0.7)'
+            filter: 'brightness(0.5)'
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
             Присоединяйтесь к самой большой команде курьеров
           </h2>
-          <p className="text-2xl mb-8">
+          <p className="text-2xl mb-8 drop-shadow-lg">
             И зарабатывай до 850 рублей в час.
           </p>
           <Button 
@@ -404,7 +404,6 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <div className="text-2xl font-bold mb-6">Яндекс.Еда</div>
             <p className="text-gray-300 mb-2">
               © 2025, Официальный партнер Яндекс Еда
             </p>
