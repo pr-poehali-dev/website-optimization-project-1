@@ -41,14 +41,20 @@ const Index = () => {
               </a>
             </nav>
           </div>
-          <Button 
-            className="bg-primary hover:bg-primary/90 text-black font-semibold text-xs md:text-base px-3 py-2 md:px-4 md:py-2"
-            asChild
-          >
-            <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
-              Отправить заявку
+          <div className="flex items-center gap-3 md:gap-4">
+            <a href="tel:+79500000000" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <Icon name="Phone" size={18} className="md:w-5 md:h-5" />
+              <span className="hidden sm:inline text-sm md:text-base font-semibold">+7 (950) 000-00-00</span>
             </a>
-          </Button>
+            <Button 
+              className="bg-primary hover:bg-primary/90 text-black font-semibold text-xs md:text-base px-3 py-2 md:px-4 md:py-2"
+              asChild
+            >
+              <a href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank" target="_blank" rel="noopener noreferrer">
+                Отправить заявку
+              </a>
+            </Button>
+          </div>
         </div>
       </header>
 
