@@ -42,9 +42,9 @@ const Index = () => {
             </nav>
           </div>
           <div className="flex items-center gap-3 md:gap-4">
-            <a href="tel:+79500000000" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="tel:+79250334432" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Icon name="Phone" size={18} className="md:w-5 md:h-5" />
-              <span className="hidden sm:inline text-sm md:text-base font-semibold">+7 (950) 000-00-00</span>
+              <span className="hidden sm:inline text-sm md:text-base font-semibold">+7 (925) 033-44-32</span>
             </a>
             <Button 
               className="bg-primary hover:bg-primary/90 text-black font-semibold text-xs md:text-base px-3 py-2 md:px-4 md:py-2"
