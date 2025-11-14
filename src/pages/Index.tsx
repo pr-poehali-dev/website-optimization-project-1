@@ -517,7 +517,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Работа водителем на межгород
+              Работа курьером на велосипеде
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
@@ -525,7 +525,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Работа на своей газели
+              Курьер на электровелосипеде
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
@@ -533,7 +533,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Работа на своём грузовом авто
+              Велокурьер Яндекс Еда
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
@@ -557,7 +557,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Работа водителем на газели
+              Курьер на самокате
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
@@ -565,7 +565,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Водитель грузового автомобиля
+              Курьер на машине
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
@@ -573,7 +573,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
             >
-              Водитель на авто компании
+              Курьер пеший
             </a>
             <a 
               href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
