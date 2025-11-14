@@ -393,6 +393,208 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-12 md:py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-12">
+            Курьеры также ищут
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Приложение для курьеров
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа курьером
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа курьером на своём авто
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа курьером на авто компании
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Курьер выходного дня
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Подработка курьером
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Курьер свободный график
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа курьером без опыта
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа курьером неполный день
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Курьер с ежедневной оплатой
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Водитель курьер
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа пешим курьером
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа водителем
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа на своём авто
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа водителем на межгород
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа на своей газели
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа на своём грузовом авто
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Подработка на авто
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа по графику 2 через 2
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Работа водителем на газели
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Водитель грузового автомобиля
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Водитель на авто компании
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Для женщин
+            </a>
+            <a 
+              href="https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=ec3aa0a8cbe04ac281c47209662f2f1c&utm_content=blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full text-sm md:text-base transition-colors"
+            >
+              Для пенсионеров
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="contacts" className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12">
