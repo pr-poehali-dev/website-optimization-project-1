@@ -50,10 +50,10 @@ const Index = () => {
               href="https://t.me/madaot" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-3 py-2 md:px-4 md:py-2 bg-[#0088cc] hover:bg-[#0088cc]/90 text-white rounded-lg transition-colors text-xs md:text-base font-semibold"
+              className="flex items-center justify-center w-9 h-9 md:w-10 md:h-10 bg-[#0088cc] hover:bg-[#0088cc]/90 text-white rounded-lg transition-colors"
+              title="Напишите нам в Telegram"
             >
-              <Icon name="MessageCircle" size={18} className="md:w-5 md:h-5" />
-              <span className="hidden sm:inline">Напишите нам</span>
+              <Icon name="MessageCircle" size={20} />
             </a>
             <Button 
               className="bg-primary hover:bg-primary/90 text-black font-semibold text-xs md:text-base px-3 py-2 md:px-4 md:py-2"
@@ -404,13 +404,22 @@ const Index = () => {
               <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Свяжитесь с нами</h3>
               <a 
                 href="tel:+79250334432" 
-                className="text-2xl md:text-3xl font-semibold text-primary hover:underline block"
+                className="text-2xl md:text-3xl font-semibold text-primary hover:underline block mb-4"
               >
                 +7 (925) 033-44-32
               </a>
-              <p className="text-sm md:text-base text-muted-foreground mt-3 md:mt-4">
+              <p className="text-sm md:text-base text-muted-foreground mb-4">
                 Звоните с 9:00 до 21:00
               </p>
+              <a 
+                href="https://t.me/madaot" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-[#0088cc] hover:bg-[#0088cc]/90 text-white rounded-lg transition-colors text-base md:text-lg font-semibold"
+              >
+                <Icon name="MessageCircle" size={20} />
+                Напишите нам в Telegram
+              </a>
             </Card>
           </div>
         </div>
